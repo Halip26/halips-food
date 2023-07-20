@@ -15,7 +15,7 @@ a {
 }
 
 nav {
-  margin: 0 200px;
+  margin: 30px 200px;
   display: flex;
 }
 
@@ -28,8 +28,15 @@ nav ul {
   margin-left: auto;
 }
 
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 li {
   list-style-type: none;
+  margin: 10px 0;
 }
 
 nav li {
@@ -48,7 +55,7 @@ nav ul li a {
 
 nav ul li a:hover {
   font-weight: bold;
-  color: #f5b534;
+  color: #dc143c;
 }
 
 p,
@@ -59,7 +66,7 @@ footer a {
 
 h1 {
   font-weight: bold;
-  color: #f5b534;
+  color: #dc143c;
   margin: 0;
 }
 
@@ -81,7 +88,7 @@ ul {
 
 .btn-ayo-mulai:hover {
   color: white;
-  background-color: #f5b534;
+  background-color: #dc143c;
 }
 
 .container {
@@ -99,7 +106,7 @@ ul {
 }
 
 .flex-5 .fa-star {
-  color: #f5b534;
+  color: #dc143c;
 }
 
 .flex-2 {
@@ -113,7 +120,7 @@ ul {
 .center-vertical {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
 }
 
 .article1 {
@@ -144,7 +151,7 @@ ul {
 }
 
 .marginLeft {
-  margin-left: 240px;
+  margin-left: 80px;
 }
 
 .menu {
@@ -201,6 +208,7 @@ ul {
 footer h6 {
   text-align: center;
   color: #636567;
+  font-size: 15px;
 }
 
 .divider {
@@ -225,7 +233,7 @@ footer .container {
 
 footer a:hover {
   text-decoration: underline;
-  color: #f5b534;
+  color: #dc143c;
 }
 
 .menu h3 {
@@ -241,25 +249,31 @@ button#scrollUpButton {
   font-size: 16px;
   border: none;
   outline: none;
-  background-color: #f5b534;
-  color: black;
+  background-color: #dc143c;
+  color: white;
   cursor: pointer;
   padding: 15px;
   border-radius: 50%;
 }
 
 button#scrollUpButton:hover {
-  background-color: #ffaa00;
-  color: #1d1c1c;
+  background-color: white;
+  color: #dc143c;
+  box-shadow: 2px 1px 2px 1px #dc143c;
 }
 
 @media screen and (max-width: 768px) {
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  nav img {
+    width: 20%;
+  }
+
   .article1 h1 {
     font-size: 30pt;
     margin: 0;
-  }
-  nav ul li a {
-    margin: 10px;
   }
 
   button#scrollUpButton {
@@ -269,7 +283,7 @@ button#scrollUpButton:hover {
   }
 
   .marginLeft {
-    margin-left: 80px;
+    margin-left: 40px;
   }
 
   .container {
