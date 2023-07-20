@@ -92,7 +92,7 @@ ul {
 }
 
 .container {
-  margin-top: 80px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -106,7 +106,7 @@ ul {
 }
 
 .flex-5 .fa-star {
-  color: #dc143c;
+  color: #f5b534;
 }
 
 .flex-2 {
