@@ -151,7 +151,7 @@ ul {
 }
 
 .marginLeft {
-  margin-left: 80px;
+  margin-left: 65px;
 }
 
 .menu {
@@ -264,11 +264,13 @@ button#scrollUpButton:hover {
 
 @media screen and (max-width: 768px) {
   nav ul li a {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   nav img {
-    width: 20%;
+    margin-top: 10px;
+    width: 10%;
+    height: 10%;
   }
 
   .article1 h1 {
@@ -283,7 +285,7 @@ button#scrollUpButton:hover {
   }
 
   .marginLeft {
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .container {
