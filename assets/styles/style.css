@@ -12,6 +12,8 @@ body {
 a {
   text-decoration: none;
   color: black;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 nav {
@@ -43,14 +45,10 @@ nav li {
   display: inline;
 }
 
-a {
-  font-size: 15px;
-  font-weight: bolder;
-}
-
 nav ul li a {
   margin: 20px;
   font-size: 20px;
+  transition: 0.2s ease;
 }
 
 nav ul li a:hover {
@@ -62,6 +60,10 @@ p,
 footer a {
   line-height: 1.8em;
   color: #636567;
+}
+
+footer h6 a {
+  color: #dc143c;
 }
 
 h1 {
@@ -84,6 +86,7 @@ ul {
   border-radius: 100px;
   margin: auto 0;
   padding: 10px 15px 10px 15px;
+  transition: 0.2s ease;
 }
 
 .btn-ayo-mulai:hover {
@@ -254,12 +257,13 @@ button#scrollUpButton {
   cursor: pointer;
   padding: 15px;
   border-radius: 50%;
+  transition: 0.2s ease;
 }
 
 button#scrollUpButton:hover {
   background-color: white;
   color: #dc143c;
-  box-shadow: 2px 1px 2px 1px #dc143c;
+  box-shadow: 2px 2px 2px 1px #dc143c;
 }
 
 @media screen and (max-width: 768px) {
