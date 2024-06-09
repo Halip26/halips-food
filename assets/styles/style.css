@@ -195,6 +195,7 @@ ul {
 .article3 {
   text-align: center;
   margin-left: 200px;
+  margin-bottom: 30px;
 }
 
 .testimonial {
@@ -295,7 +296,7 @@ button#scrollUpButton:hover {
 
   button#scrollUpButton {
     bottom: 10px;
-    right: 18px;
+    right: 17px;
     font-size: 14px;
   }
 
