@@ -198,7 +198,7 @@ ul {
 }
 
 .testimonial {
-  width: 330px;
+  width: 320px;
   text-align: center;
   margin: auto;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -290,7 +290,7 @@ button#scrollUpButton:hover {
 
   button#scrollUpButton {
     bottom: 10px;
-    right: 20px;
+    right: 18px;
     font-size: 14px;
   }
 
@@ -303,7 +303,7 @@ button#scrollUpButton:hover {
   }
 
   .btn-ayo-mulai {
-    margin-right: 8px;
+    margin-right: 6px;
     font-size: 12px;
     padding: 10px 12px 10px 15px;
   }
