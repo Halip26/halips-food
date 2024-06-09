@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Josefin Sans", sans-serif;
   padding: 0;
+  max-width: 100%;
 }
 
 a {
@@ -289,7 +290,7 @@ button#scrollUpButton:hover {
 
   button#scrollUpButton {
     bottom: 10px;
-    right: 10px;
+    right: 17px;
     font-size: 14px;
   }
 
@@ -302,6 +303,8 @@ button#scrollUpButton:hover {
   }
 
   .btn-ayo-mulai {
+    margin-right: 10px;
+    font-size: 12px;
     padding: 10px 12px 10px 15px;
   }
 }
