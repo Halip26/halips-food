@@ -93,6 +93,7 @@ ul {
   background-color: #dc143c;
   border: 2px solid #dc143c;
   color: white;
+  position: relative;
 }
 
 .btn-ayo-mulai:hover {
@@ -298,7 +299,7 @@ button#scrollUpButton:hover {
 
   button#scrollUpButton {
     bottom: 10px;
-    right: 17px;
+    right: 13px;
     font-size: 14px;
   }
 
@@ -314,7 +315,6 @@ button#scrollUpButton:hover {
     margin-right: 6px;
     font-size: 12px;
     padding: 10px 12px 10px 15px;
-    position: relative;
   }
 
   footer h6 {
