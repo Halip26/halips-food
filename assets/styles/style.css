@@ -213,6 +213,11 @@ ul {
   margin: 2px;
 }
 
+.testimonial h3,
+p {
+  margin-bottom: -2px;
+}
+
 footer h6 {
   text-align: center;
   color: #636567;
