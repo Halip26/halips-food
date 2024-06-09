@@ -65,6 +65,6 @@ Bersama dengan makanan kami yang berkualitas tinggi, kami juga menawarkan suasan
   - Membership
   - Disclaimer
 
-- [Halip's Food](https://halip26.github.io/)
+- [Halip's Food](https://halips-food.vercel.app/)
 
-© 2023 Halip's Food
+© `<span id="currentYear"></span>` Halip's Food
