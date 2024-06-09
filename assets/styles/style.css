@@ -315,6 +315,10 @@ button#scrollUpButton:hover {
     font-size: 12px;
     padding: 10px 12px 10px 15px;
   }
+
+  footer h6 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
